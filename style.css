@@ -10,9 +10,9 @@ h1 {
 }
 
 .flower {
-	padding: 20px;
 	width: 60px;
 	height: 60px;
+	padding: 20px;
 }
 
 .flower:hover {
@@ -67,10 +67,9 @@ h1 {
 
 .head { 
 	width: 200px; 
-	margin: 0 auto; 
 	height: 100px; 
+	margin: 0 auto 10px; 
 	border-radius: 200px 200px 0 0; 
-	margin-bottom: 10px;
 } 
 
 .eyes {
@@ -127,7 +126,6 @@ h1 {
 .lower_body { 
 	width: 200px; 
 	height: 200px;
-	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
 	display: flex;
 } 
@@ -170,8 +168,6 @@ h1 {
 } 
 
 .left_eye { 
-	/* These properties are new and you haven't encountered
-	in this course. Check out CSS Tricks to see what it does! */
 	position: relative; 
 	top: 60px; 
 	left: 40px; 
